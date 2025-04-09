@@ -17,7 +17,7 @@ public class Car_Chapter15 {
 	
 	//ギアチェンジ後の速度を表示する
 	public void run() {
-		if(gear <= 5 || gear >= 1 ) {
+		if(gear <= 5 && gear >= 1 ) {
 			System.out.println("速度は時速" + gear*speed + "Kmです");
 		}else {
 			System.out.println("速度は時速"+ speed + "Kmです");
